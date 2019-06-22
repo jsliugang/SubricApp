@@ -8,8 +8,6 @@ It's simple but so fast ! You can create your subtitles only with one time recor
 
 ![1561203752066](https://i.screenshot.net/5ovdjsq)
 
-<div style='font-size:13px;margin-top:-4px;color:#feac00;text-align: center;'>SubricApp Startup Screenshot</div>
-
 
 # Features
 
