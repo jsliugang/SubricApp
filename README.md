@@ -24,6 +24,8 @@ It's simple but so fast ! You can create your subtitles only with one time recor
 - Amazing User Interface!
 
 
+To view **SubricApp** Documentations and API References [click here.](https://github.com/3ThirdEyeZ/SubricApp/blob/master/bin/SubricApp%20Documentation.chm)
+
 # License
 
 SubricApp licensed under Apache 2.0 License.
