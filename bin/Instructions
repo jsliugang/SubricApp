@@ -1,0 +1,110 @@
+ ===================================================
+
+       [ SubricApp Instructions - 2019.0.0]
+		          by Hamid.Memar
+	  
+ ===================================================
+
+ SubricApp is an application to create subtitles for
+  Songs , video Musics and Movies by using a unique
+	  method... Your Ears and your Hand :)
+	  
+ ===================================================
+
+ Application is developed in C# and .Net Framework 
+     to run it you need to instal .Net 4.5+
+	 
+ ===================================================
+
+ <> How it Works ?
+ 1. Open your movie/song in SubricApp
+ 2. Okay , there's two stategy now :
+ * If you have lyrics or dialogs import it.
+ * if you don't press Ctrl+W to open writer.
+ 3. After importing your lyrics , select color
+ of your subtitle.
+ 4. Click on Record.
+ 5. Press and hold 'space' key to place lyrics.
+ 6. Export to *.srt file.
+ 7. Enjoy the speed of process :D
+ 
+ ===================================================
+ 
+             /*   Developer Notes   */
+ 
+ ===================================================
+ 
+ This library uses Telerik for Winforms Library that
+ is a commercial product.
+ If you don't get full version it will show a bignag
+ screen randomly, and trust me it's really annoying!
+ 
+ OK, to build the project with licensed telerik just
+ remove 'Telerik.Trial' from references and add this
+ files to references :
+ + TelerikCommon.dll
+ + Telerik.WinControls.dll
+ + Telerik.WinControls.UI.dll
+ + Telerik.WinControls.RadDock.dll
+ + Telerik.WinControls.GridView.dll -> Optimal
+ + Telerik.WinControls.RichTextEditor.dll -> Optimal
+ 
+ And rebuild the project.
+ 
+ ===================================================
+  
+  Tools & Plugins are different! tools gets data and
+   processing it and then returns it back to subric
+     but plugins use subricapp API via SDK Kit.
+	 
+	 also Tools can be in any language like C/C++
+ 
+ ===================================================
+ 
+			DON'T TRY TO CHANGE THE THEME.
+				IT WILL BREAK THE APP!
+ 
+ ===================================================
+  
+  <> SubricApp Extensions :
+  [*.subjs] => SubricApp JSON or XML
+  [*.subrictool] => SubricApp GZip PE File as TOOL
+  [*.subgz] => SubricApp GZip Compressed File
+  [*.slw] => SubricApp Lyric Writer File
+  [*.ssdk] => SubricApp SDK Upgrade File
+  [*.subprj] =>  SubricApp Project File
+ 
+  
+ ===================================================
+ 
+  <> How to use Subric.Compressor.exe :
+  * to compress a file use 
+  [exefile] -comp [file]
+  * to deccompress a file use 
+  [exefile] -decomp [file]
+  
+  Example :
+  Subric.Compressor.exe -comp "C:\test.txt"
+ 
+ ===================================================
+ 
+                /*   Final Note   */
+ 
+ ===================================================
+ 
+   I developed this app for fun and learning stuffs
+   The code is a little bit messy but it's clear.
+   You can learn lots of things about software 
+   Architecting and Mechanism by digging codes.
+	 
+ ===================================================	 
+ 
+     I hope this application be helpful to you :)
+	 Regards,
+	 Hamid.Memar
+ 
+  ===================================================
+  
+  - Last Update : 2019.0.0
+ 
+ 

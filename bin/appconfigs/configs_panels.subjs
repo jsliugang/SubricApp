@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RadDock Padding="0, 0, 0, 0" SplitterWidth="8" ToolWindowInsertOrder="InFront" DocumentTabsTextOrientation="Default" ToolTabsTextOrientation="Default" IsCleanUpTarget="True" Orientation="Vertical" CausesValidation="False" TabIndex="4" TabStop="False">
+  <QuickNavigatorSettings PreviewSize="200, 200" MaxSize="0, 0" ListItemSize="200, 24" />
+  <Controls>
+    <Telerik.WinControls.UI.Docking.ToolTabStrip SelectedIndex="1" TabStripTextOrientation="Default" TabStripAlignment="Bottom" CanUpdateChildIndex="True" Size="334, 628" Location="0, 0" CausesValidation="False" Name="toolTabStrip1" RightToLeft="No" TabIndex="4" TabStop="False">
+      <SizeInfo MinimumSize="0, 0" MaximumSize="0, 0" SplitterCorrection="134, 0" RelativeRatio="0, 0" AutoSizeScale="0, 0" AbsoluteSize="334, 200" />
+      <Controls>
+        <Telerik.WinControls.UI.Docking.ToolWindow Caption="" ToolCaptionButtons="None" DocumentButtons="None" DefaultFloatingSize="300, 300" AllowedDockState="Docked" PreviousDockState="Docked" DesiredDockState="Docked" Name="Subs_Panel" Size="326, 567" Location="4, 34" Font="Microsoft Sans Serif, 8.25pt" Text="Subtitles" />
+        <Telerik.WinControls.UI.Docking.ToolWindow Caption="" ToolCaptionButtons="None" DocumentButtons="None" DefaultFloatingSize="300, 300" AllowedDockState="Docked" PreviousDockState="Docked" DesiredDockState="Docked" Name="Data_Panel" Size="326, 567" Location="4, 34" Font="Microsoft Sans Serif, 8.25pt" Text="Lyrics" />
+      </Controls>
+    </Telerik.WinControls.UI.Docking.ToolTabStrip>
+    <Telerik.WinControls.UI.Docking.DocumentContainer IsMainDocumentContainer="True" Padding="0, 0, 0, 0" SplitterWidth="8" TabIndex="2" Orientation="Horizontal" CausesValidation="False" Name="documentContainer1" RightToLeft="No">
+      <SizeInfo MinimumSize="0, 0" MaximumSize="0, 0" SplitterCorrection="-296, 0" RelativeRatio="0, 0" AutoSizeScale="0, 0" SizeMode="Fill" AbsoluteSize="899, 200" />
+      <Controls>
+        <Telerik.WinControls.UI.Docking.DocumentTabStrip SelectedIndex="0" TabStripTextOrientation="Default" TabStripAlignment="Top" CanUpdateChildIndex="True" Size="791, 543" Location="0, 0" CausesValidation="False" Name="documentTabStrip2" TabIndex="0" TabStop="False">
+          <SizeInfo MinimumSize="0, 0" MaximumSize="0, 0" SplitterCorrection="0, 70" RelativeRatio="0, 0" AutoSizeScale="0, 0.2564516" AbsoluteSize="200, 200" />
+          <Controls>
+            <Telerik.WinControls.UI.Docking.DocumentWindow IsPinned="False" ToolCaptionButtons="None" DocumentButtons="None" DefaultFloatingSize="300, 300" AllowedDockState="Docked" CloseAction="Hide" PreviousDockState="TabbedDocument" DesiredDockState="TabbedDocument" Name="Player_Panel" Size="779, 501" Location="5, 35" Font="Microsoft Sans Serif, 8.25pt" Text="Player" />
+          </Controls>
+        </Telerik.WinControls.UI.Docking.DocumentTabStrip>
+        <Telerik.WinControls.UI.Docking.DocumentTabStrip SelectedIndex="0" TabStripTextOrientation="Default" TabStripAlignment="Top" CanUpdateChildIndex="True" Size="791, 77" Location="0, 551" Padding="0, 2, 0, 0" CausesValidation="False" Name="MediaBar" TabIndex="1" TabStop="False">
+          <SizeInfo MinimumSize="0, 77" MaximumSize="0, 77" SplitterCorrection="0, -70" RelativeRatio="0, 0" AutoSizeScale="0, -0.2564516" AbsoluteSize="200, 200" />
+          <Controls>
+            <Telerik.WinControls.UI.Docking.ToolWindow Caption="" ToolCaptionButtons="None" DocumentButtons="None" DefaultFloatingSize="300, 300" BackColor="43, 43, 43" AllowedDockState="Docked" PreviousDockState="Docked" DesiredDockState="Docked" Name="PlayerCtrl_Panel" Size="779, 33" Location="5, 37" Font="Microsoft Sans Serif, 8.25pt" Text="Player Controls" />
+          </Controls>
+        </Telerik.WinControls.UI.Docking.DocumentTabStrip>
+      </Controls>
+    </Telerik.WinControls.UI.Docking.DocumentContainer>
+    <Telerik.WinControls.UI.RadSplitContainer IsCleanUpTarget="True" Orientation="Horizontal" SplitterWidth="8" Padding="5, 5, 5, 5" CausesValidation="False" Location="1141, 0" Name="radSplitContainer2" RightToLeft="No" Size="351, 628" TabIndex="5" TabStop="False">
+      <SizeInfo MinimumSize="0, 0" MaximumSize="0, 0" SplitterCorrection="151, 0" RelativeRatio="0, 0" AutoSizeScale="0, 0" AbsoluteSize="351, 200" />
+      <Controls>
+        <Telerik.WinControls.UI.Docking.ToolTabStrip SelectedIndex="0" TabStripTextOrientation="Default" TabStripAlignment="Bottom" CanUpdateChildIndex="True" Size="351, 434" Location="0, 0" CausesValidation="False" Name="toolTabStrip4" TabIndex="3" TabStop="False">
+          <SizeInfo MinimumSize="0, 0" MaximumSize="0, 0" SplitterCorrection="55, 195" RelativeRatio="0, 0" AutoSizeScale="0, 0.3859649" AbsoluteSize="255, 200" />
+          <Controls>
+            <Telerik.WinControls.UI.Docking.ToolWindow Caption="" ToolCaptionButtons="None" DefaultFloatingSize="300, 300" AllowedDockState="Docked" PreviousDockState="Hidden" DesiredDockState="Docked" Name="Prop_Panel" Size="343, 396" Location="4, 34" Font="Microsoft Sans Serif, 8.25pt" Text="Subric Properties" />
+          </Controls>
+        </Telerik.WinControls.UI.Docking.ToolTabStrip>
+        <Telerik.WinControls.UI.Docking.ToolTabStrip SelectedIndex="0" TabStripTextOrientation="Default" TabStripAlignment="Bottom" CanUpdateChildIndex="True" Size="351, 101" Location="0, 442" CausesValidation="False" Name="toolTabStrip6" TabIndex="4" TabStop="False">
+          <SizeInfo MinimumSize="0, 77" MaximumSize="0, 0" SplitterCorrection="0, -226" RelativeRatio="0, 0" AutoSizeScale="0, -0.156545222" AbsoluteSize="200, 200" />
+          <Controls>
+            <Telerik.WinControls.UI.Docking.ToolWindow Caption="" ToolCaptionButtons="None" DocumentButtons="None" DefaultFloatingSize="300, 300" AllowedDockState="Docked" PreviousDockState="Docked" DesiredDockState="Docked" Name="UpcomingLyric_Panel" Size="343, 63" Location="4, 34" Font="Microsoft Sans Serif, 8.25pt" Text="Upcoming Lyric" />
+          </Controls>
+        </Telerik.WinControls.UI.Docking.ToolTabStrip>
+        <Telerik.WinControls.UI.Docking.ToolTabStrip SelectedIndex="0" TabStripTextOrientation="Default" TabStripAlignment="Bottom" CanUpdateChildIndex="True" Size="351, 77" Location="0, 551" Padding="5, 5, 5, 5" CausesValidation="False" Name="toolTabStrip7" TabIndex="5" TabStop="False">
+          <SizeInfo MinimumSize="0, 77" MaximumSize="0, 77" SplitterCorrection="0, -113" RelativeRatio="0, 0" AutoSizeScale="0, -0.229419708" AbsoluteSize="200, 200" />
+          <Controls>
+            <Telerik.WinControls.UI.Docking.ToolWindow Caption="" ToolCaptionButtons="None" DocumentButtons="None" DefaultFloatingSize="300, 300" AllowedDockState="Docked" PreviousDockState="Docked" DesiredDockState="Docked" Name="Recorder_Panel" Size="333, 29" Location="9, 39" Font="Microsoft Sans Serif, 8.25pt" Text="Recorder" />
+          </Controls>
+        </Telerik.WinControls.UI.Docking.ToolTabStrip>
+      </Controls>
+    </Telerik.WinControls.UI.RadSplitContainer>
+  </Controls>
+</RadDock>

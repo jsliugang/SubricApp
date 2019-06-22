@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubricApp2019", "SubricApp2019.csproj", "{17A500CC-FC58-42B2-A700-3CD5EDAF9256}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SDK", "SDK", "{6E6B4530-1CB1-4C4A-9E50-A9ADEEB9E0C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subric.Plugin", "Subric.Plugin\Subric.Plugin.csproj", "{3871B78D-DE90-4AA8-8606-B02AEC95AA6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subric.SDK.API", "Subric.SDK.API\Subric.SDK.API.csproj", "{2FE231FB-266B-4B80-B8CE-522C908BC905}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		SubricApp Build|Any CPU = SubricApp Build|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17A500CC-FC58-42B2-A700-3CD5EDAF9256}.SubricApp Build|Any CPU.ActiveCfg = SubricApp Build|Any CPU
+		{17A500CC-FC58-42B2-A700-3CD5EDAF9256}.SubricApp Build|Any CPU.Build.0 = SubricApp Build|Any CPU
+		{3871B78D-DE90-4AA8-8606-B02AEC95AA6E}.SubricApp Build|Any CPU.ActiveCfg = SubricApp Build|Any CPU
+		{3871B78D-DE90-4AA8-8606-B02AEC95AA6E}.SubricApp Build|Any CPU.Build.0 = SubricApp Build|Any CPU
+		{2FE231FB-266B-4B80-B8CE-522C908BC905}.SubricApp Build|Any CPU.ActiveCfg = SubricApp Build|Any CPU
+		{2FE231FB-266B-4B80-B8CE-522C908BC905}.SubricApp Build|Any CPU.Build.0 = SubricApp Build|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3871B78D-DE90-4AA8-8606-B02AEC95AA6E} = {6E6B4530-1CB1-4C4A-9E50-A9ADEEB9E0C4}
+		{2FE231FB-266B-4B80-B8CE-522C908BC905} = {6E6B4530-1CB1-4C4A-9E50-A9ADEEB9E0C4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07C1A39C-6A41-4D40-8529-AE812324A631}
+	EndGlobalSection
+EndGlobal

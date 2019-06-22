@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="SubricApp.MediaControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SubricApp"
+             mc:Ignorable="d" d:DesignWidth="800" Height="496">
+    <Grid>
+        <MediaElement x:Name="MasterMediaCtrl" Margin="0" LoadedBehavior="Manual" UnloadedBehavior="Manual" Stretch="UniformToFill" ScrubbingEnabled="True" d:IsLocked="True" />
+        <Grid x:Name="mp3screenoverlay" d:IsLocked="True">
+            <Rectangle Fill="#FF2A2A2A" Stroke="#FFFDAC00" StrokeThickness="4"/>
+            <Image x:Name="x" Source="/SubricApp;component/Resources/mp3Screen.jpg" Stretch="Fill" Margin="0" HorizontalAlignment="Center" VerticalAlignment="Center" Width="180" Height="208"/>
+        </Grid>
+        <Grid x:Name="time_info" Margin="26,23,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Opacity="0.9" d:IsLocked="True">
+            <Label x:Name="OverlayShadow_Copy" Content="{Binding Content, ElementName=Overlay_Data_01}" Visibility="{Binding Visibility, ElementName=Overlay_Data_01}" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="670" FontSize="16" FontFamily="Tahoma" Foreground="Black" Opacity="0.8" Margin="0,0,0,1">
+                <Label.Effect>
+                    <BlurEffect Radius="2"/>
+                </Label.Effect>
+            </Label>
+            <Label x:Name="OverlayShadow" Content="{Binding Content, ElementName=Overlay_Data_01}" Visibility="{Binding Visibility, ElementName=Overlay_Data_01}" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="670" FontSize="16" FontFamily="Tahoma" Foreground="Black" Opacity="0.8" Margin="0,0,0,2">
+                <Label.Effect>
+                    <BlurEffect Radius="1"/>
+                </Label.Effect>
+            </Label>
+            <Label x:Name="Overlay_Data_01" Content="00:00:00:000/00:00:00:000 - Normal" HorizontalAlignment="Left" Margin="0,0,0,3" VerticalAlignment="Bottom" Width="670" FontSize="16" FontFamily="Tahoma" Foreground="#FFFDAC00"/>
+
+        </Grid>
+        <Label x:Name="video_stat" Content="Speed : 0.1" HorizontalAlignment="Right" Margin="0,17,0,0" VerticalAlignment="Top" Foreground="#FF26BAFF" FontSize="20" Width="435" HorizontalContentAlignment="Right" Padding="0,5,31,5" FontFamily="Tahoma" FontStyle="Italic" FontWeight="Bold" Opacity="0" d:IsLocked="True">
+            <Label.Effect>
+                <DropShadowEffect ShadowDepth="0" Opacity="0.8" Color="#FF05364D"/>
+            </Label.Effect>
+        </Label>
+        <TextBox Focusable="False" IsReadOnly="True" IsHitTestVisible="False" x:Name="subtitle_preview" Height="96" Margin="0" TextWrapping="Wrap" VerticalAlignment="Bottom" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FFFDAC00" FontSize="20" TextAlignment="Center" FontFamily="Tahoma" SelectionBrush="{x:Null}" FontWeight="Bold" Opacity="0" d:IsLocked="True">
+            <TextBox.Effect>
+                <DropShadowEffect Opacity="0.8" ShadowDepth="2" BlurRadius="2"/>
+            </TextBox.Effect>
+        </TextBox>
+        <Grid x:Name="buffering_overlay" Margin="0,0,0,-2" Visibility="Hidden" d:IsLocked="True" >
+            <Rectangle Fill="#FFFCAC01"/>
+            <Image HorizontalAlignment="Center" Height="176" Margin="0,0,1,0" VerticalAlignment="Center" Width="163" Stretch="Fill" Source="/SubricApp;component/Resources/buffering.jpg"/>
+
+        </Grid>
+
+    </Grid>
+</UserControl>

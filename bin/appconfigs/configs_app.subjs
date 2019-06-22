@@ -1,0 +1,17 @@
+{
+  "ExportKey": 69,
+  "ImportKey": 73,
+  "OpenKey": 79,
+  "RecordKey": 32,
+  "StartRecordKey": 82,
+  "StopRecordKey": 83,
+  "fullscreen": false,
+  "startUpSize": "1500, 750",
+  "splashscreen": true,
+  "colorizing_srt": true,
+  "lyric_height": 30,
+  "speed_scale": 0.15,
+  "movement_durration": 800,
+  "show_overlay": true,
+  "colorizing_sub": true
+}
