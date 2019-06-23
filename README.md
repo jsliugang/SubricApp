@@ -30,5 +30,7 @@ To view **SubricApp** Documentations and API References [click here.](https://gi
 
 SubricApp licensed under Apache 2.0 License.
 
+# Notes
+To download binaries of **SubricApp**[click here.](https://github.com/3ThirdEyeZ/SubricApp/releases)
 
-
+**UNBLOCK** : Don't forget to unblock files after downloading them , some files like .chm don't work without unblocking.
