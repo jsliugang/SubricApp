@@ -23,14 +23,16 @@ It's simple but so fast ! You can create your subtitles only with one time recor
 - Plug-in Mechanism and SDK
 - Amazing User Interface!
 
+# Notes
+To download binaries of **SubricApp** [click here.](https://github.com/3ThirdEyeZ/SubricApp/releases)
+
+**!IMPORTANT!** : Don't forget to unblock files after downloading them, some files like .chm don't work without unblocking.
 
 To view **SubricApp** Documentations and API References [click here.](https://github.com/3ThirdEyeZ/SubricApp/blob/master/bin/SubricApp%20Documentation.chm)
+
+
 
 # License
 
 SubricApp licensed under Apache 2.0 License.
 
-# Notes
-To download binaries of **SubricApp**[click here.](https://github.com/3ThirdEyeZ/SubricApp/releases)
-
-**UNBLOCK** : Don't forget to unblock files after downloading them , some files like .chm don't work without unblocking.
